@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;700&display=swap');
+
+html {
+  font-size: 15px;
+}
+
+h1 {
+  font-family: 'Oswald', fantasy;
+  font-weight:700;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Oswald', fantasy;
+  font-weight:300;
+  font-size: 2rem;
+  margin-bottom: 1;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  
+}
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.navbar {
+  background-color: #332;
+  overflow: hidden;
+
+}
+
+.navbar a {
+  float: left;
+  color: #FFF;
+  font-size: 16px;
+  text-align: left;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #000;
+  margin: 0;
+}
+
+#img-caption {
+  color: #D3D3D3;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  padding: 5px;
+}
+
+.tribute-text-area {
+  height: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+ 
+}
+
+#learnmore {
+ background-color: #DCDCDC;
+ color: #000; 
+ font-size: 12px;
+ padding-left: 20%;
+ padding-right: 20%;
+ padding-top: 1%;
+ padding-bottom: 2%;
+}
+
+footer {
+  background-color: #332;
+  color: #FFF;
+  font-family: 'Oswald', fantasy;
+  font-weight:400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+ 
