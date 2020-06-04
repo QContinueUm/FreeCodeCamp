@@ -1,0 +1,75 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+<div class="container">
+  <header class="header">
+    <h1 id="title">Winter River Library Survey</h1>
+    <p id="description" class="description text-center">
+      Thank you for helping us improve our resources!</p>
+    <hr>
+  </header>
+  
+  <body>
+  <form id="survey-form">
+       <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required/>
+    </div>
+<div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address (e.g. email@email.com)" required/>
+    </div>
+    
+    <div class="form-group">
+      <label id="number-label" for="number">How many books do you read in a month?</label>
+      <input type="number" id="number" name="number" placeholder="Tell us how many books you complete each month (e.g. 1? 10?)" min="0" max="365" required/>
+    </div>
+    
+<div class="form-group"> 
+  <label id="dropdown-label" for="dropdown">When do you do most of your reading?</label>
+  <select class="dropdown" id="dropdown" name="dropdown" required/>
+  <option disabled selected value>Select the time of day when you do most of your reading:</option>
+  <option value="early">Early morning (5am–7am)</option>
+  <option value="mid">Mid-morning (9am–11am)</option>
+  <option value="afternoon">Afternoon (12pm–2pm)</option>
+  <option value="evening">Evening (6pm–8pm)</option>
+  <option value="late">Late night (9pm–11pm)</option>
+</select>
+  </div>
+
+ 
+  <div class="form-group"> 
+  <label>How would you rate the orderliness of our reading areas?</label>   
+
+<label for="1"><input type="radio" id="1" name="something" value="1" class="input-radio" checked> Wonderful: I can find everything with ease!</label>
+
+<label for="2"><input type="radio" id="2" name="something" value="1" class="input-radio"> Adequate: There's room for improvement but I generally can find what I need.</label>
+
+<label for="3"><input type="radio" id="3" name="something" value="1" class="input-radio"> Major improvement needed: I often can't find what I'm looking for, things are disorganized, etc.</label>
+    </div>
+    
+  
+  <div class="form-group"> 
+  <label>Which library resources do you use? (Select all that apply)</label>
+      <label for="1"><input type="checkbox" name="1" value="Element" class="checkbox" checked> In-library books</label>
+  <label for="2"> <input type="checkbox" name="2" value="Element" class="checkbox"> E-library books (borrow online)</label>
+  <label for="3"><input type="checkbox" name="3" value="Element" class="checkbox"> In-library magazines</label>
+    <label for="4"> <input type="checkbox" name="4" value="Element" class="checkbox"> E-library magazines (borrow online)</label>
+    <label for="5"> <input type="checkbox" name="5" value="Element" class="checkbox"> Children's reading room</label>
+    <label for="5"> <input type="checkbox" name="5" value="Element" class="checkbox"> Academic reading room</label>
+
+    </div>
+  
+   <div class="form-group"> 
+  <label id="textbox-label" for="textbox">Any comments or suggestions on how we can expand our facilities/amenities can be written here:</label>
+     <textarea name="comments" form="survey-form" wrap="off" placeholder="Examples could include crèche resources for pre-school learners, etc."></textarea>
+  </div>
+  
+  <div class="form-group">
+    <button type="submit" id="submit" class="submit-button">Submit</button>
+    <button type="reset" id="reset" class="reset-button">Reset</button>
+    </div>
+
+  </body>
+  </div>
+  </html>

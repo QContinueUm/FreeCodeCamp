@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  min-width: 35rem;
+  max-width: 90rem;
+}
+
+.header {
+  background: white;
+  padding: 2rem;
+  border-top-left-radius:0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.description {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+body {
+  background-image: url("https://i.picsum.photos/id/1073/5472/3648.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #FF8E2B;
+}
+
+#survey-form {
+  background: white;
+  padding: 0rem 4rem 0.3rem;
+  border-bottom-left-radius:0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.form-group {
+  background: white;
+  margin: 0 auto 1.5rem auto;
+  padding: 0.25rem;
+}
+
+label {
+  display: flex;
+  font-size:2rem;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+  
+input[type="text"], input[type="email"], input[type="number"] {
+  width: 97.4%;
+  padding: 1.2rem 0rem 1.2rem 1.5rem;
+  border: 0.25rem solid #000;
+  border-radius: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+input:focus {
+  border: 0.25rem solid #FF8E2B; 
+}
+
+.dropdown {
+  display: block;
+  width: 100%;
+  height: 4.25rem;
+  color: gray;
+  border: 0.25rem solid #000;
+  border-radius: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  outline: none;
+  padding: 1rem;
+}
+
+.dropdown:focus {
+  border: 0.25rem solid #FF8E2B; 
+  color: black;
+}
+
+input[type="radio"] {
+  display: table-cell;
+}
+
+textarea {
+  width: 97.4%;
+  height: 5rem;
+  padding: 0.55rem;
+  border: 0.25rem solid #000;
+  border-radius: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  resize: none;
+  outline: none;
+}
+
+textarea:focus {
+  border: 0.25rem solid #FF8E2B; 
+}
+
+.submit-button {
+  border: 0.25rem solid #000; 
+  background-color: #FF8E2B; 
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+  padding: 0.75rem;
+  outline: none;
+  font-weight:bold;
+}
+
+.submit-button:focus {
+  border: 0.25rem solid #000; 
+  color: black;
+  font-weight:bold;
+}
+
+.reset-button {
+  border: 0.25rem solid #000; 
+  background-color: #FFF; 
+  color: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+  padding: 0.75rem;
+  outline: none;
+  font-weight:bold;
+}
+
+.reset-button:focus {
+  border: 0.25rem solid #FF8E2B;
+  color: #FF8E2B;
+  font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
